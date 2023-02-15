@@ -1,0 +1,93 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+body{
+    background-image: url(survey.jpg);
+    height:100vh ;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+text-align: center;
+margin-top: 1.3em;
+font-size: 30px;
+}
+
+.tx, .select, .fc, .f, .cb {
+    text-align: center;
+    margin-top: 1.3em;
+    font-size: 25px;
+}
+
+
+.tx {
+    margin-top: 1.3em;
+    padding-left:1em ;
+    margin-left: 1.5em;
+    font-size:1.6em 
+    
+}
+
+.fc {
+    accent-color:rgb(23, 214, 6) ;
+}
+
+.cb{
+  accent-color:rgb(229, 255, 0) ;
+}
+
+.cs{
+    width:20vw ;
+    height:2vh ;
+    font-size:25px;
+    padding:0.5em ;
+    padding-left:0.8em ;
+    margin-left:20px ;
+    color: rgb(255, 0, 179);
+    font-weight: bolder;
+}
+
+.se, .pf{
+    border-radius:2em ;
+    border-color: rgb(47, 17, 216);
+    font-size:20px ;
+    color: blue;
+    margin-left:1.6em;
+    height:25px ; 
+    background-color: rgb(194, 235, 235);
+}
+.select{
+    margin-top:2px ;
+}
+
+button{
+    padding:1em;
+    margin-top:20px;
+    background-color: blue;
+    border-radius:1em ;
+    color: whitesmoke;
+    width:200px;
+    opacity:0.9 ;
+    margin-left:59em;
+}
+
+button:hover{
+    opacity: 0.6;
+    background-color: rgb(31, 230, 13);
+    cursor:pointer;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 2em;
+}
